@@ -1,0 +1,16 @@
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\MSIDLLDemo.Properties.Resources.resources
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\MSIDLLDemo.csproj.GenerateResource.Cache
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\bin\Debug\MSIDLLDemo.exe
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\bin\Debug\MSIDLLDemo.pdb
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\MSIDLLDemo.exe
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\MSIDLLDemo.pdb
+C:\development\Youseful\Installer\msidllDemo\MSIDLLDemo\obj\Debug\MSIDLLDemo.Form1.resources
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\MSIDLLDemo.Form1.resources
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\MSIDLLDemo.Properties.Resources.resources
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\MSIDLLDemo.csproj.GenerateResource.Cache
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\bin\Debug\MSIDLLDemo.exe
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\bin\Debug\MSIDLLDemo.pdb
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\MSIDLLDemo.exe
+C:\Dev_Sept\#Install\#Install SDK\MSIDLLDemo\obj\Debug\MSIDLLDemo.pdb
