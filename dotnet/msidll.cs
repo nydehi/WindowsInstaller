@@ -5,11 +5,7 @@
 //     <version value="0.95"/>
 // </file>
 // Original Author: Joseph J Mele (joemele@gmail.com)
-// If you like using this wrapper, please,(as it is NOT required)
-// make a donation of ANY AMOUNT to a civil rights group for autistics - Aspies for Freedom  (AFF)
-// The donation link is http://www.aspiesforfreedom.org/index.php?page=donate
-// You have my personal thanks, if you choose to do this. It is the best way
-// to show your appreciation.
+ 
 
 
 using System;
