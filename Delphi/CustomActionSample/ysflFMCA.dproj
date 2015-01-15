@@ -1,0 +1,56 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0f9ded20-b9fa-466f-80dd-3d6b5f263176}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>ysflFMCA.dll</DCC_DependencyCheckOutputName>
+    <MainSource>ysflFMCA.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG;USE_DELPHI_TYPES</DCC_Define>
+    <DCC_UnitSearchPath>C:\Dev_Sept\#Install\#Install SDK\CustomAction</DCC_UnitSearchPath>
+    <DCC_ResourcePath>C:\Dev_Sept\#Install\#Install SDK\CustomAction</DCC_ResourcePath>
+    <DCC_ObjPath>C:\Dev_Sept\#Install\#Install SDK\CustomAction</DCC_ObjPath>
+    <DCC_IncludePath>C:\Dev_Sept\#Install\#Install SDK\CustomAction</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">ysflFMCA.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="ysflFMCA.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\CustomAction\Msi.pas" />
+    <DCCReference Include="..\CustomAction\MsiDefs.pas" />
+    <DCCReference Include="..\CustomAction\MsiQuery.pas" />
+    <DCCReference Include="..\CustomAction\routines_msi.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM6Path.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM7DevPath.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM7Path.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM85AdvPath.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM85Path.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM8AdvPath.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM8Path.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM9AdvPath.pas" />
+    <DCCReference Include="CustomAction.FileMaker.FM9Path.pas" />
+    <DCCReference Include="CustomAction.FileMaker.pas" />
+    <DCCReference Include="CustomAction.Launch.pas" />
+    <DCCReference Include="CustomAction.LaunchDOS.pas" />
+    <DCCReference Include="CustomAction.Logging.pas" />
+    <DCCReference Include="Youseful.exceptions.pas" />
+    <DCCReference Include="Youseful.System.Shell.Process.Component.pas" />
+  </ItemGroup>
+</Project>
